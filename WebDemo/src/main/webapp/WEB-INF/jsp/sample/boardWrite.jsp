@@ -3,6 +3,7 @@
 <html>
 <head>
 <%@ include file="/WEB-INF/include/include-header.jsp" %>
+<%@ include file="/WEB-INF/include/include-body.jsp" %>
 </head>
 <script type="text/javascript">
 	$(document).ready(function(){
@@ -51,8 +52,7 @@
         </table>
          
         <a href="#this" class="btn" id="write">Write</a>
-        <a href="#this" class="btn" id="list">Go List</a>
+        <a href="#this" class="btn" id="list">Go to List</a>
     </form>
-    <%@ include file="/WEB-INF/include/include-body.jsp" %>
 </body>
 </html>
