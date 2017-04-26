@@ -2,9 +2,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>first</title>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
+<title>WebDemo</title>
+<%@ include file="/WEB-INF/include/include-header.jsp" %>
 </head>
 <body>
 <h2>Test Board List</h2>
